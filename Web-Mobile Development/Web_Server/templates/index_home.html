@@ -1,0 +1,20 @@
+<!-- Si escribimos 'html' y presionamos TAB, se obtiene un formato estandar -->
+<!-- Se inicia con un tag '< >' y se termina con un '</ >' -->
+
+<!-- Los corchetes en el icon indican que lo que se escriba dentro será evaluado como Python, -->
+<!-- ya que usando Flask, lo hace trabajar con Jinja, un lenguaje template. -->
+<!-- url_for proviene de Flask, se comprueba en el server.py -->
+<!-- Esto nos da el potencial de manejar muchas cosas en el website -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='cacoicon.ico') }}">
+</head>
+<body>
+	THIS IS MY WEBSITE
+	<script src="static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#MACHINE LEARNING
+'''
+Permite utilizar máquinas para predecir resultados basado en data entrante.
+
+Básicamente consta de hacer una máquina capaz de aprender.
+
+ML permite que la máquina desarrolle y escriba una función a partir de la entrada y 
+salida esperada. La máquina creará dicha función/modelo/algoritmo/bot (BRAIN) mediante
+data con la que ha sido 'entrenada'.
+
+Entre las categorías de Machine Learning, se encuentran:
+
+-Supervised: La data entrante ya 'tiene categorías', por lo que permite 'clasificar' la 
+información o realizar 'regresiones' para predecir un resultado.
+
+-Unsupervised: La data entrante 'no tiene categorías', por ende la máquina se encarga de
+'encerrar' (clustering) la información o 'asociar' (association rule learning) distinta 
+información para predecir que resultado viene después.
+
+-Reinforcement: Se trata de enseñar a la máquina mediante ensayo y error. De esta manera
+la máquina 'adquiere habilidad' y 'aprende a tiempo real'.
+
+Cualquier categoría al final, aprende a predecir resultados basado en data entrante.
+
+HERRAMIENTAS PARA MACHINE LEARNING (Python):
+
+-NumPy: Para manejo de arreglos y listas multidimensionales.
+-Pandas: Para Data Analysis (CSV, tabular data).
+-Scikit: Para librerías y modulos prediseñados de ML.
+-MathPlotLib: Para visualizar la data (visual, sharting).
+-Jupyter Notebook: DESCARGAMOS ANACONDA (viene con todo lo anterior).
+-Kaggle: Para utilizar free datasets.
+
+ML Steps:
+											(EJEMPLOS:)
+#1 - Import the data						(i.e. CSV, usando Pandas)
+#2 - Clean the data							(usando funciones, etc)
+#3 - Split data. Training Set/Test Set 		(Usando Scikit train_test_selection)
+#4 - Create a Model 						(Importar un algoritmo. i.e. Scikit K Neighbors)
+#5 - Check the output						(Usando scikit learn)
+#6 - Improve								()
+
+'''

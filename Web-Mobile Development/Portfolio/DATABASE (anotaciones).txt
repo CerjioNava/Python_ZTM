@@ -1,0 +1,34 @@
+DATABASE (anotaciones)
+
+Una base de datos es una colección de información, de cualquier tipo.
+Nos permiten ordenar dicha información para sea útil y comprensible, de manera
+que el manejo de información (Data Management) sea sencilla.
+
+-Database Management System (DBMS): Es una colección de programas que permiten 
+acceder a distintas bases de datos y trabajar con ellas. Puede ser un software 
+que nos permita acceder a las databases, actualizarlas, modificarlas, extraer 
+información, etc. Tal como:
+
+-PostgreSQL	(Relational Database, SQL)
+-MongoDB	(Non Relational Database, NoSQL)
+
+1- 	Relational Database: Consiste en dos o más tablas con columnas y filas. Cada
+	fila representa una entrada y cada columna es la fuente de algún tipo de data.
+	La relación entre tablas y campos se llama 'esquema' y comprensible, así
+	cualquier tipo de información puede ser añadida.
+
+	La idea del esquema es predefinir el comportamiento de la aplicación desde un
+	inicio.
+
+	-Primary Key: Identifica cada fila de una tabla.
+	-Foreign Key: (No entendí bien)
+
+	SQL: Structured Query Language. Permite comunicar con la base de datos.
+
+2-	Non Relational Database (NoSQL): Permite crear la aplicación sin tener que
+	definir el esquema desde el inicio, se va creando a medida que todo avanza.
+	MongoDB es orientado a documentos (Document Oriented), ya que almacena 
+	información en documentos.
+
+La decisión de trabajar con SQL o NoSQL depende de las necesidades del proyecto.
+
